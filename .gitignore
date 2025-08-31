@@ -1,0 +1,33 @@
+# Virtual environments
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Model checkpoints and large files
+*.pth
+*.pt
+*.h5
+*.ckpt
+
+# Logs
+*.log
+
+# Datasets (optional, if you don’t want to push them)
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.parquet
+
+# System files
+.DS_Store
+Thumbs.db
